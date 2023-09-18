@@ -1,57 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css">
-    <title>Your Portfolio</title>
+  <meta charset="UTF-8">
+  <title>Your Portfolio</title>
+  <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="logo">
-            <img src="./Resources/148280424_padded_logo.png" alt="my Logo">
-        </div>
-        <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+  <header class="header">
+    <h1>Jonathan Gutierrez</h1>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
     </nav>
-    <header>
-        <div class="profile">
-            <img src="./Resources/20190419_214809.jpg" alt="my Photo">
-            <h1>Jonathan Gutierrez</h1>
-        </div>
-    </header>
-    <section id="about" class="section">
-        <div class="content">
-            <h2>About Me</h2>
-            <p> Welcome to my portfolio! I am Jonathan Gutierrez, a dedicated Full Stack Web Development student with a passion for creating web applications that blend form and functionality. Here, I am thrilled to showcase my journey, skills, and the projects I've worked on.
-                
-                As I continue to explore the dynamic world of web development, this portfolio serves as a canvas where you can witness the culmination of my hard work and creativity. From designing captivating user interfaces to crafting robust backend solutions, my goal is to create digital experiences that leave a lasting impression.
-                
-                Please explore my work, and if you have any questions or opportunities for collaboration, feel free to reach out. Thank you for visiting, and I look forward to connecting with you!.</p>
-        </div>
-    </section>
-    <section id="work" class="section">
-        <div class="content">
-            <h2>My Work</h2>
-            
-            <div class="work-item">
-                <img src="app1.jpg" alt="Application 1">
-                <h3>Application 1 Title</h3>
-            </div>
-            <div class="work-item">
-                <img src="app2.jpg" alt="Application 2">
-                <h3>Application 2 Title</h3>
-            </div>
-        </div>
-    </section>
-    <section id="contact" class="section">
-        <div class="content">
-            <h2>Contact Me</h2>
-            <p>jonigutierrez741@gmail.com</p>
-        </div>
-    </section>
+  </header>
+
+  <section id="about" class="section">
+    <img src="./Resources/20190419_214809.jpg" alt="ME" class="avatar">
+    <p class="description">Hello my name is Jonathan Gutierrez im a student currently in UM Bootcamp for Full stack web developing 
+        and this is where ill be placing my current and future jobs and project. Happy to share my work with others.
+    </p>
+    <p class="description">
+        Check out my work on 
+        <a href="https://github.com/jony277" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </p>
+  </section>
+
+  <section id="work" class="section">
+    <article class="project highlight">
+      <a href="#" class="project-link">
+        <img src="./Resources/65535_52305310807_218d2f2cf0_z_640_360_nofilter.jpg" alt="Placeholder 1" class="project-img">
+        <h3 class="project-title">Placeholder 1</h3>
+      </a>
+    </article>
+  </section>
+
+  <section id="work" class="section">
+    <article class="project highlight">
+      <a href="#" class="project-link">
+        <img src="./Resources/65535_52305310807_218d2f2cf0_z_640_360_nofilter.jpg" alt="Placeholder 2" class="project-img">
+        <h3 class="project-title">Placeholder 2</h3>
+      </a>
+    </article>
+  </section>
+
+  <section id="work" class="section">
+    <article class="project highlight">
+      <a href="#" class="project-link">
+        <img src="./Resources/65535_52305310807_218d2f2cf0_z_640_360_nofilter.jpg" alt="Placeholder 3" class="project-img">
+        <h3 class="project-title">Placeholder 3</h3>
+      </a>
+    </article>
+  </section>
+
+  <section id="contact" class="section">
+    <p class="description">Contact information...
+        </p>
+        <p class="description">
+            Email me at 
+            <a href="mailto:youremail@example.com">jonigutierrez741@gmail.com</a>
+          </p>
+        </section>
+
+    </p>
+  </section>
+
 </body>
 </html>
